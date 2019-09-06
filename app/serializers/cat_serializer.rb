@@ -1,5 +1,5 @@
 class CatSerializer < ActiveModel::Serializer
-  attributes :id, :name, :favorite_food, :owner
+  attributes :id, :name, :age, :favorite_food, :owner
 
   def owner 
     {
